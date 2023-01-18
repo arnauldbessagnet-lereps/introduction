@@ -1,0 +1,139 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[round]{natbib}
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage{tikz}
+\usepackage{authblk}
+\usepackage{booktabs, tabularx}
+\usepackage{amsmath}
+\usepackage[input-decimal-markers=.]{siunitx}
+\usepackage[english]{babel}
+\usepackage{pdflscape}
+\usepackage{setspace} \doublespacing
+\usepackage{dcolumn,caption}
+\usepackage{array, threeparttable} % to add footnotes to the tables
+\setlength{\emergencystretch}{3em}
+\captionsetup{skip=0.333\baselineskip}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+\newcommand\mc[1]{\multicolumn{1}{@{}c@{}}{#1}} % handy shortcut macro
+
+\begin{document}
+
+\title{Digital Entrepreneurship}
+\date{\vspace{-3ex}}
+\author{Arnauld Bessagnet \\ \footnotesize{LEREPS – Sciences-Po Toulouse, University of Toulouse – France} \\}
+
+\maketitle \vspace{-1,5em}
+
+\begin{abstract}
+\noindent
+In this thesis, we talk about Digital Entrepreneurship, Entrepreneurial Ecosystems, Scaling of Digital Firms.
+\newline
+
+\begin{obeylines}
+\noindent \footnotesize{}{\textbf{Keywords:} Entrepreneurship, Fundraising, Start-up Teams, Competencies}
+\noindent \footnotesize{\textbf{JEL Classification:} L22, L26, L85}
+\end{obeylines}
+
+\end{abstract}
+
+\clearpage
+\section{Introduction}
+
+\subsection{Why does it matters?}
+Digital technologies combined with entrepreneurship are shifting economic development paradigms. For cities, regions and countries, digital technologies have the potential to drive economic growth, create new jobs and increase competitiveness \citep{autio2016entrepreneurship}. Therefore, the conditions of firms to go digital by using new forms of business models and the factors that facilitate digital entrepreneurship have garnered significant attention from policymakers in recent years \citep{lisbon2016manifesto}. Indeed, while \citet{oecd2021digital, oecd2022scale} reports promote the development of digital transformation of SMEs and suggest how to set favorable local conditions for digital entrepreneurship, the European Commission has recognized the potential of the digital economy for economic growth and has implemented various policies and initiatives to support the development of digital technologies and entrepreneurship. For example, these include the Digital Market Act (DMA), which targets Big Tech firms and aim to level the playing field between the biggest players and their users, the Digital Service Act (DSA), which force online platforms to be more transparent about their algorithmic systems work, and the Startup and Scaleup Initiative, which provides support for early-stage digital startups.
+
+\subsection{Concern in the litterature (RBV) + 1 factor (entrepreneurial ecosystems)}
+
+In recent years in social sciences, digital entrepreneurship field has been a major focus in entrepreneurship and  technological innovation studies \citep{zaheer2019digital, giones2017digital, nambisan2019digital, sahut2021age}. Digital entrepreneurship refers to the process of creating value through the use of digital technologies and business models. This involve the development of new products and services, the use of data to optimize operations, the ability to build and manage a strong team of individuals who are able to drive innovation forward, and the creation of new platforms and ecosystems in environments conducive to innovation \citep{spigel2017relational}. The resource-based view (RBV) of the firm has been largely used to understand digital entrepreneurship and suggests that the growth and the competitive advantage of a digital firm lies in its unique resources (i.e., intangible assets such as patents, human capital that is difficult to imitate or replicate, or environments conducive to innovation such as entrepreneurial ecosystems) and dynamic capabilities (i.e., continuously learn, adapt, and innovate in order to respond to changing market conditions). Therefore, one way that firms can build unique resources and dynamic capabilities is through digital entrepreneurship.
+
+\subsection{Critics of digital entrepreneurship literature / debates}
+
+Among the factors that contribute to the success of digital entrepreneurship, entrepreneneurial ecosystems have been subject to debates and controversies about the nature and function of these ecosystems and how they can be leveraged to support and nurture local entrepreneurial activity \citep{spigel2017relational}. Entrepreneurial ecosystems refer to the complex network of individuals, organizations, and institutions that interact and influence the success or failure of entrepreneurial ventures in a given geographical area. According to this perspective, a digital firm's success depends, among other factors, on its ability to access and leverage resources and knowledge, on its capacity to exploit digital affordances and by putting emphasis on business model innovation \citep{autio2018digital, spigel2022examining}. Other factors such as access to funding, the availability of skilled labor, and the presence of supportive policies can all play a critical role in the development and growth of digital entrepreneurial ventures \citep{sussan2017digital}. However, the entrepreneurial ecosystem perspective has also been criticized for the lack of clarity regarding its borders \citep{sussan2017digital, song2019digital} - see the digital entrepreneurial ecosystems \citet{nachira2002towards} - and its neglect of intra-firm factors such as organizational structure and culture. Furthermore, other areas of debate center on the under theorised role of institutions, regulatory dynamics and government, and on the role of culture and social norms in shaping entrepreneurial ecosystems.
+
+Beyond the debates on entrepreneurial ecosystems, digital entrepreneurship theories have been criticises because of the lack of a clear distinction with traditional entrepreneurship, the under-theorized role of human capital and skills for digital firms (i) to access to more financial resources and (ii) to scale their user base efficiently and rapidly.
+
+Firstly, some researchers argue that digital entrepreneurship represents a fundamentally different approach to creating and growing firms \citep{song2019digital, cavallo2019fostering}, while others argue that it is simply a new context in which traditional entrepreneurial principles and practices apply \citep{zaheer2019digital}. One the one hand, researchers have focused on the strategies and tactics used by traditional and digital entrepreneurs to create and grow their firms \citep{van2016pipelines, piaskowska2021scale}. Also, there has been a significant amount of research with a focus on drivers and barriers of digital entrepreneurship \citep{klein2020start, nambisan2019digital, autio2018digital}, the role of digital technologies in business model innovation \citep{zhao2020evolution}, and the impact of digital entrepreneurship on economic development \citep{elia2020digital}. On the other hand, researchers have examined the role of digital technologies in shaping the nature and direction of entrepreneurship \citep{nambisan2017digital, zaheer2019digital}, providing offering others avenue for future research. For example, some researchers investigated how digital entrepreneurship is able to leverage new technologies and platforms to create novel products and services that disrupt traditional business models \citep{ofe2018building, zhao2020evolution}, while others, however, show how digital firms are built on existing platforms and technologies rather than truly innovative ideas \citep{smith2005existing}.
+
+Secondly, a debate concerns the role of human capital and skills in digital entrepreneurship to access more resources and grow \citep{gruber2012minds, marvel2016human, ratzinger2018impact}. Individuals' human capital plays a crucial role in the effectiveness of firm growth, as it can significantly impact a company's ability to rapidly scale or collect funds \citep{subramanian2022backing}. This can be understood through the lens of the resource-based view (RBV) of the firm, which posits that a firm's resources and capabilities, including the skills and knowledge of its employees, contribute to its competitiveness and success. There are, however, controversies surrounding the role of human capital in digital entrepreneurship. Some argue that the human capital of individuals is less important in the digital age, as technology can automate many tasks and processes. Others argue that while technology can certainly play a role in the success of a digital startup, the knowledge and skills of individuals are still crucial in areas such as strategy, decision-making, innovation and fundraising. Some studies have finally examined the relationship between digital entrepreneurship and various socio-economic factors such as gender, age, and education \citep{ratzinger2018impact, zaheer2019straight}.
+
+\subsection{Opening the view and main hypothesis}
+
+The digital revolution has become an important resource for economic growth, and digital entrepreneurship a key input for digitization. Consequently, the study of digital entrepreneurship has become fundamental to understand the shifting economic development paradigms.
+
+Drawing on research on [...] and Following this literature, the aim of this dissertation is the study of the resources and factors that shape digital entrepreneurship.
+
+
+
+
+
+
+There are several key theories that have been developed to explain the phenomenon of digital entrepreneurship, and these theories have been the subject of much debate and criticism.
+
+One of the main theories of digital entrepreneurship is the resource-based view (RBV) \citep{wernerfelt1984resource}. This theory suggests that a firm's resources and capabilities are the key determinants of its success \citep{giustiziero2021hyperspecialization}. According to the RBV, a firm that has unique resources and capabilities that are not easily imitable by competitors will have a competitive advantage. In the context of digital entrepreneurship, this could include a firm's technological infrastructure, intellectual property, and digital skills, brand reputation, and relationships with customers and suppliers. The RBV has been widely used to explain the success of digital firms, but it has also been criticized for its focus on the internal factors of a firm and its lack of attention to external factors such as market conditions and industry dynamics. Indeed, by considering the role of these external factors, researchers can gain a more complete understanding of the conditions that are necessary for digital entrepreneurial success.
+
+
+A third theory of digital entrepreneurship is the dynamic capabilities approach, which suggests that a firm's ability to continuously learn and adapt to changing environments is a key driver of its success \citep{teece1997dynamic, eisenhardt2000dynamic}. The dynamic capabilities approach emphasizes the role of organizational processes and practices in enabling a firm to identify and exploit new opportunities and to respond to threats. This theory has been used to explain the success of entrepreneurial digital firms that are able to quickly respond to changing market conditions and customer preferences or to adopt new technologies \citep{martin2020and, zietsma2020scaling}, but it has also been criticized for its emphasis on firm-level factors and its neglect of external factors such as industry structure and technological change. By understanding the role that dynamic capabilities play in digital entrepreneurship, scholars and practitioners can better understand how firms can remain agile and responsive in an increasingly fast-paced and competitive digital marketplace.
+
+Following this literature, we argue that future research in the field of digital entrepreneurship should aim to integrate these existing theories and to consider a wider range of factors in order to better understand the complex and dynamic nature of digital firms. The aim of this dissertation is the study of digital entrepreneurship including the moderating role of entrepreneurial ecosystems (environmental, industry structure, technological change) in the creation and growth of digital firms, but also on internal factors (unique resources and capabilities) such as the acquisition of financial resources. Consequently, this thesis focuses on how entrepreneurial ecosystems and internal drivers shape the entrepreneurial process and the success of digital firms.
+
+The structure and development of entrepreneurial ecosystems (EEs) are complex and multifaceted, encompassing a wide range of factors that can influence their competitiveness and regulatory dynamics. One key area of interest we indentified in this regard is the role that skills variety and job experiences play in shaping the ability of digital firms to scale rapidly. This is particularly relevant in the current digital environment, where the rapid pace of technological change and increasing global competition have created a need for firms to be agile and adaptable in order to succeed.
+
+One theoretical gap that has emerged in the literature on EEs is the lack of a comprehensive framework for understanding how these factors interact with one another and influence the overall performance of digital firms. While there have been a number of attempts to examine the relationship between skills variety and job experiences, and their impact on firm performance, these studies have often focused on isolated variables or have used simplistic models that do not adequately capture the complexity of the underlying processes.
+
+To address this gap, it may be useful to consider a different theoretical approach that combines multiple perspectives on the structure and development of EEs. One such approach could be to adopt a systems-based perspective, which focuses on the interactions and feedback loops between different components of an EE and their effect on the overall system. This approach could help to better understand the dynamic nature of EEs and how different factors such as skills variety, job experiences, and regulatory dynamics interact with one another to shape the performance of digital firms.
+
+Using this approach, it may be possible to gain a more nuanced understanding of the signaling effect of human capital, and how different start-up teams are able to secure funding based on their perceived potential for success. By examining the complex interplay between skills variety, job experiences, and regulatory dynamics, it may be possible to identify the key factors that influence which start-up teams are able to secure funding and why. This could provide valuable insights for policymakers and business leaders looking to support the development of EEs and promote the growth of innovative digital firms.
+
+Overall, the proposed theoretical approach offers the potential to bridge the gap in the current literature and provide a more comprehensive understanding of the structure and development of EEs and the factors that influence the performance of digital firms. By considering the interactions and feedback loops between different components of an EE, it may be possible to identify the key drivers of success and the factors that shape the ability of digital firms to scale rapidly and thrive in a rapidly changing business environment.
+
+
+
+\section{Research question}
+
+How does entrepreneurial ecosystems impact the creation and growth of digital firms, and what are the key factors that influence the effectiveness of digital entrepreneurship in this context? This research question could be pursued through a variety of methods, including surveys, interviews, and case studies, to shed light on the role of entrepreneurial ecosystems and key factors in the digital entrepreneurship landscape. We draw upon various theories and frameworks relevant to digital entrepreneurship, such as the entrepreneurship theory and the innovation theory. These theories can provide valuable insights into the underlying mechanisms and processes of digital entrepreneurship, and help to better understand the opportunities and challenges of this field.
+
+In conclusion, the academic literature on digital entrepreneurship is a rich and vibrant field, encompassing a wide range of topics and debates. While much has been learned about this topic, there are still many gaps in our understanding, including the role of entrepreneurial ecosystems in the creation and growth of digital firms. By addressing these gaps in the literature, we can gain a more comprehensive and nuanced understanding of this important and rapidly evolving field. It is a multifaceted and rapidly evolving field that has significant implications for the economy and society. It presents both opportunities and challenges, and requires a thorough understanding of the underlying theories and frameworks to effectively navigate and succeed in this field. This thesis aims to contribute to this understanding by providing a comprehensive and in-depth analysis of digital entrepreneurship.
+
+%Explication of what is digital entrepreneurship : at its core, digital entrepreneurship involves the use of digital technologies and platforms to create, deliver, and capture value \citep{colin2015digital}. This can include the creation of new digital products or services, the use of digital platforms to reach and engage with customers, and the leveraging of data and analytics to optimize business operations. It also refers to the use of digital technologies and the internet often with the goal of disrupting traditional industries and creating new value \citep{sahut2021age}. The growth of the digital economy has had a significant impact on the way we live and work, and this trend is likely to continue in the future.
+
+\section{Thesis outline}
+
+We examine three related questions in digital entrepreneurship and economic literature.
+
+- survey of the literature on applied to the digital entrepreneurship.
+
+- How the structure and development of EEs are affected by and affect, in turn, the underlying competitive and regulatory dynamics that play out globally.
+
+- Is it more beneficial to have skills variety and job experiences within the upper, middle, or lowers’ organizational echelons for digital firms’ rapid scaling?
+
+- Skills’ level and skills’ variety combined effects : which start-up teams get funded and why?
+
+The study of entrepreneurial ecosystems (EEs) has long been an important area of research in the fields of entrepreneurship and business. These ecosystems are composed of various elements such as entrepreneurs, investors, mentors, and support organizations, all of which interact and influence each other in complex ways. In recent years, there has been growing interest in understanding how the structure and development of EEs are affected by, and in turn affect, the underlying competitive and regulatory dynamics that play out globally.
+
+One important factor that has been identified as having a significant impact on the structure and development of EEs is the level of competition within the ecosystem. In highly competitive EEs, entrepreneurs may face greater challenges in terms of access to resources and support, as well as in terms of market entry and growth. On the other hand, in less competitive EEs, entrepreneurs may have more opportunities to access resources and support, and may be more likely to experience success in terms of market entry and growth.
+
+In addition to the level of competition within an EE, the regulatory environment in which the ecosystem operates is also an important factor that can affect its structure and development. For example, in highly regulated EEs, entrepreneurs may face greater challenges in terms of navigating complex regulatory frameworks and obtaining necessary approvals, which can impact their ability to access resources and support and grow their businesses. On the other hand, in less regulated EEs, entrepreneurs may have more flexibility and freedom to innovate and grow their businesses, which can contribute to the overall dynamism and vitality of the ecosystem.
+
+The second question that emerges in this context is whether it is more beneficial for digital firms to have skills variety and job experiences within the upper, middle, or lower organizational echelons for rapid scaling. This is a complex issue that depends on a variety of factors, including the specific needs and goals of the firm, the nature of the industry in which it operates, and the competitive environment in which it is situated.
+
+One potential advantage of having a diverse range of skills and job experiences within the upper echelon of a digital firm is that it can provide a broad base of knowledge and expertise that can be leveraged to drive innovation and growth. This can be particularly important in fast-moving, highly competitive industries where firms must continuously adapt and evolve to stay ahead of the competition. On the other hand, having too much diversity within the upper echelon of a firm may also create challenges in terms of coordination and decision-making, which could hinder the firm's ability to scale quickly.
+
+At the same time, having a diverse range of skills and job experiences within the middle and lower echelons of a firm can also be beneficial in terms of driving innovation and growth. For example, having a diverse range of perspectives and experiences within the middle and lower echelons can help a firm to identify and address new opportunities and challenges, and can also help to foster a culture of innovation and continuous improvement.
+
+The third question that emerges in this context is the combined effects of skills' level and skills' variety on which start-up teams get funded and why. This is an important issue because the availability of funding can be a key determinant of a start-up's success or failure. In general, start-up teams that are able to demonstrate a high level of skills and expertise, as well as a diverse range of skills and experiences, are likely to be more attractive to investors and to have a greater chance of securing funding.
+
+One key factor that investors typically consider when evaluating start-up teams is the level of expertise and experience that team members bring to the table. Teams that are composed of individuals with a deep understanding of the industry in which they operate, as well as a strong track record of success, are often seen as more
+
+
+
+
+\clearpage
+%References section - bibliography
+\bibliography{biblio}
+
+\bibliographystyle{abbrvnat}
+
+\end{document}

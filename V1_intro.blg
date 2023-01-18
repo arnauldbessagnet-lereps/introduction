@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: V1_intro.aux
+The style file: abbrvnat.bst
+Database file #1: biblio.bib
+Warning--can't use both volume and number fields in martin2020and
+Warning--empty journal in nachira2002towards
+Warning--can't use both volume and number fields in subramanian2022backing
+Warning--can't use both volume and number fields in zietsma2020scaling
+You've used 34 entries,
+            2773 wiz_defined-function locations,
+            783 strings with 10645 characters,
+and the built_in function-call counts, 15682 in all, are:
+= -- 1407
+> -- 836
+< -- 23
++ -- 287
+- -- 252
+* -- 1289
+:= -- 2385
+add.period$ -- 105
+call.type$ -- 34
+change.case$ -- 186
+chr.to.int$ -- 33
+cite$ -- 72
+duplicate$ -- 751
+empty$ -- 1330
+format.name$ -- 294
+if$ -- 3293
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 34
+newline$ -- 178
+num.names$ -- 136
+pop$ -- 352
+preamble$ -- 1
+purify$ -- 152
+quote$ -- 0
+skip$ -- 554
+stack$ -- 0
+substring$ -- 623
+swap$ -- 89
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 374
+warning$ -- 4
+while$ -- 149
+width$ -- 0
+write$ -- 448
+(There were 4 warnings)
